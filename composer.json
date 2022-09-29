@@ -1,0 +1,11 @@
+{
+    "name": "wouterj/json-mapper",
+    "description": "A very simple - i.e. don't use - JSON mapper",
+    "type": "library",
+    "license": "BSD-2 Clause",
+    "autoload": { "psr-4": { "WouterJ\\JsonMapper\\": "src/" } },
+    "authors": [{ "name": "Wouter de Jong", "email": "wouter@wouterj.nl" }],
+    "require": {
+        "php": "^8.0"
+    }
+}
