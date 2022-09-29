@@ -8,8 +8,8 @@ system.
 Use the `MapFromJson` trait from the class you want to map and call
 `YourClass::fromJson($json)`.
 
-For examples, see the [`src/tests.php`][src/tests.php] file.
+For examples, see the [`src/tests.php`](src/tests.php) file.
 
 ## License
 
-See the [License][License] file.
+See the [License](License) file.
