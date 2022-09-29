@@ -12,4 +12,4 @@ For examples, see the [`src/tests.php`](src/tests.php) file.
 
 ## License
 
-See the [License](License) file.
+See the [License](LICENSE) file.
