@@ -17,6 +17,7 @@ class User
     private string $lastName;
     public readonly Address $address;
     public readonly array $givenNames;
+    public readonly array $myCreativityStoppedWorking;
     
     use \WouterJ\JsonMapper\MapFromJson;
 
@@ -42,4 +43,8 @@ it('can map nested objects',
 
 it('can map arrays',
     ['Jane', 'Mary'] === User::fromJson('{"given_names":["Jane","Mary"]}')->givenNames
+);
+
+it('can map arrays with keys',
+    ['some' => 'thing'] === User::fromJson('{"my_creativity_stopped_working":{"some":"thing"}}')->myCreativityStoppedWorking
 );
